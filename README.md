@@ -1,66 +1,53 @@
-# Job Portal
+<h1>Getting Started with Create React App</h1>
 
-Job Portal is a MERN Stack based web app which helps in streamlining the flow of job application process. It allows users to select there roles (applicant/recruiter), and create an account. In this web app, login session are persistent and REST APIs are securely protected by JWT token verification. After logging in, a recruiter can create/delete/update jobs, shortlist/accept/reject applications, view resume and edit profile. And, an applicant can view jobs, perform fuzzy search with various filters, apply for jobs with an SOP, view applications, upload profile picture, upload resume and edit profile. Hence, it is an all in one solution for a job application system.
+<p>This project was bootstrapped with <a href="https://github.com/facebook/create-react-app">Create React App</a>.</p>
 
-Demo: [Click Here](https://www.youtube.com/watch?v=lIrN-LbbBnw&ab_channel=ShlokPandey)
+<h2>Available Scripts</h2>
 
-Directory structure of the web app is as follows:
+<p>In the project directory, you can run:</p>
 
-```
-- backend/
-    - public/
-        - profile/
-        - resume/
-- frontend/
-- README.md
-```
+<h3><code>npm start</code></h3>
+<p>Runs the app in the development mode.<br>
+Open <a href="http://localhost:3000">http://localhost:3000</a> to view it in the browser.</p>
+<p>The page will reload if you make edits.<br>
+You will also see any lint errors in the console.</p>
 
-## Instructions for initializing web app:
+<h3><code>npm test</code></h3>
+<p>Launches the test runner in the interactive watch mode.<br>
+See the section about <a href="https://facebook.github.io/create-react-app/docs/running-tests">running tests</a> for more information.</p>
 
-- Install Node JS, MongoDB in the machine.
-- Start MongoDB server: `sudo service mongod start`
-- Move inside backend directory: `cd backend`
-- Install dependencies in backend directory: `npm install`
-- Start express server: `npm start`
-- Backend server will start on port 4444.
-- Now go inside frontend directory: `cd ..\frontend`
-- Install dependencies in frontend directory: `npm install`
-- Start web app's frontend server: `npm start`
-- Frontend server will start on port 3000.
-- Now open `http://localhost:3000/` and proceed creating jobs and applications by signing up in required categories.
+<h3><code>npm run build</code></h3>
+<p>Builds the app for production to the <code>build</code> folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.</p>
+<p>The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!</p>
+<p>See the section about <a href="https://facebook.github.io/create-react-app/docs/deployment">deployment</a> for more information.</p>
 
-## Dependencies:
+<h3><code>npm run eject</code></h3>
+<p><strong>Note: this is a one-way operation. Once you <code>eject</code>, you can’t go back!</strong></p>
+<p>If you aren’t satisfied with the build tool and configuration choices, you can <code>eject</code> at any time. This command will remove the single build dependency from your project.</p>
+<p>Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except <code>eject</code> will still work, but they will point to the copied scripts so you can tweak them. At this point, you’re on your own.</p>
+<p>You don’t have to ever use <code>eject</code>. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However, we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.</p>
 
-- Frontend
-  - @material-ui/core
-  - @material-ui/icons
-  - @material-ui/lab
-  - axios
-  - material-ui-chip-input
-  - react-phone-input-2
-- Backend
-  - bcrypt
-  - body-parser
-  - connect-flash
-  - connect-mongo
-  - cors
-  - crypto
-  - express
-  - express-session
-  - jsonwebtoken
-  - mongoose
-  - mongoose-type-email
-  - multer
-  - passport
-  - passport-jwt
-  - passport-local
-  - uuid
+<h2>Learn More</h2>
 
-# Machine Specifications
+<p>You can learn more in the <a href="https://facebook.github.io/create-react-app/docs/getting-started">Create React App documentation</a>.</p>
+<p>To learn React, check out the <a href="https://reactjs.org/">React documentation</a>.</p>
 
-Details of the machine on which the webapp was tested:
+<h3>Code Splitting</h3>
+<p>This section has moved here: <a href="https://facebook.github.io/create-react-app/docs/code-splitting">https://facebook.github.io/create-react-app/docs/code-splitting</a></p>
 
-- Operating System: Elementary OS 5.1 (Hera)
-- Terminal: Bash
-- Processor: Intel Core i7-8750H CPU @ 2.20 GHz 2.21 GHz
-- RAM: 16 GB
+<h3>Analyzing the Bundle Size</h3>
+<p>This section has moved here: <a href="https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size">https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size</a></p>
+
+<h3>Making a Progressive Web App</h3>
+<p>This section has moved here: <a href="https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app">https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app</a></p>
+
+<h3>Advanced Configuration</h3>
+<p>This section has moved here: <a href="https://facebook.github.io/create-react-app/docs/advanced-configuration">https://facebook.github.io/create-react-app/docs/advanced-configuration</a></p>
+
+<h3>Deployment</h3>
+<p>This section has moved here: <a href="https://facebook.github.io/create-react-app/docs/deployment">https://facebook.github.io/create-react-app/docs/deployment</a></p>
+
+<h3><code>npm run build</code> fails to minify</h3>
+<p>This section has moved here: <a href="https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify">https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify</a></p>
